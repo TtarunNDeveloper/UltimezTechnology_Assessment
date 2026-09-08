@@ -91,8 +91,7 @@ app.delete("/books/:id", (req,res)=>{
         message: "Book deleted",
     })
 })
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () =>{
+app.listen(3000, () =>{
 
-    console.log(`Server running on port http://localhost:${PORT}`);
+    console.log(`Server running on port 3000`);
 });
